@@ -9,8 +9,9 @@ A react portfolio created with react and gatsby to outline some of my code proje
 ## Table of Contents
 
 - [Description](#description)
-- [Image-of-App](#Image of App)
+- [Image-of-App](#image-of-app)
 - [Acknowledgement](#acknowledgement)
+- [Link-to-Site](#link-to-site)
 - [License](#license)
 
 ## Image of App
@@ -20,6 +21,10 @@ A react portfolio created with react and gatsby to outline some of my code proje
 ## Acknowledgement
 
 The template for this project was provided by [Jacobo Martinez](https://github.com/cobidev)
+
+## Link to Site
+
+In progress
 
 ## License
 
