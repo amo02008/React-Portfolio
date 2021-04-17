@@ -1,6 +1,7 @@
 {
   "name": "gatsby-starter-hello-world",
   "private": true,
+  "homepage": "https://github.com/amo02008/React-Portfolio",
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
