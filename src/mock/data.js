@@ -17,41 +17,52 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'pinkyoga.jpg',
+  img: 'purpleyoga.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1Bw11i_AmzddwBS89MCx8VC1T70uqZ0xJ/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1Bw11i_AmzddwBS89MCx8VC1T70uqZ0xJ/view?usp=sharing',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'my-notepad.png',
+    title: 'Note Taker',
+    info: 'This application allows the user to create, save and delete notes.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://my-notepad-notes.herokuapp.com/',
+    repo: 'https://github.com/amo02008/My-Notepad.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'dashboard_tracker.PNG',
+    title: 'Peak Physique',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://peak-physique.herokuapp.com/?id=606ce14e12c09a00159b0f2c',
+    repo: 'https://github.com/amo02008/PeakPhysique.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'budget-tracker.PNG',
+    title: 'Budget Tracker',
+    info:
+      'This budget tracker will allows the user to keep tabs of their balance whether they are online or offline',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://offline-budget-app1.herokuapp.com/',
+    repo: 'https://github.com/amo02008/Online-Offline-Budget-Tracker.git', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'QRMmain.png',
+    title: 'Quarantine Recipe Machine',
+    info:
+      'An application designed to allow the user to input two ingredients they have on hand. Once entered a list of recipes will appear. This will allow the user to find new ways to create meals based on ingredients they already have.',
+    info2: '',
+    url: 'https://amo02008.github.io/Quarantine-Recipe-Machine/',
+    repo: 'https://github.com/amo02008/Quarantine-Recipe-Machine.git', // if no repo, the button will not show up
   },
 ];
 
@@ -68,12 +79,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/adrienne-osorio-jrdev/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/amo02008',
     },
   ],
 };

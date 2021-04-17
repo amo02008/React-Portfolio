@@ -30,7 +30,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={img} />
+                <AboutImg alt="yoga pose picture" filename={img} />
               </div>
             </Fade>
           </Col>
@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'My name is Adrienne Osorio I have always been passionate about problem-solving. This led to a 10-year career working in finance servicing about 250 households with a total AUM of roughly $200,000,000.00. Although I had access to top tier technologies, I often found myself wondering how to improve them further. This led to my enrollment in a Full Stack Web Development Bootcamp.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'While I find both the front-end and back-end processes interesting I am drawn to the front end. It allows me to bring an idea to life while incorporating problem solving.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'In 2019 I became a registered yoga instructor. I’m looking forward to find ways to take the things I learn on the mat and incorporate them with web development."Yoga is not about touching your toes. It is what you learn on the way down.” – Jigar Gor'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
