@@ -24,7 +24,7 @@ The template for this project was provided by [Jacobo Martinez](https://github.c
 
 ## Link to Site
 
-[link](https://amo02008.github.io/React-Portfolio/)
+[Link](https://amo02008.github.io/React-Portfolio/)
 
 ## License
 
