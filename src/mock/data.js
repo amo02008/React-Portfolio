@@ -21,38 +21,21 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1Bw11i_AmzddwBS89MCx8VC1T70uqZ0xJ/view?usp=sharing',
+  resume:
+    'https://docs.google.com/document/d/1uE1LQuRwhfb7XjRDLEuXr5Vg2STiDGGN-v0C-KtTxD4/edit?usp=sharing',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'my-notepad.png',
-    title: 'Note Taker',
-    info: 'This application allows the user to create, save and delete notes.',
-    info2: '',
-    url: 'https://my-notepad-notes.herokuapp.com/',
-    repo: 'https://github.com/amo02008/My-Notepad.git', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'dashboard_tracker.PNG',
-    title: 'Peak Physique',
-    info: '',
-    info2: '',
-    url: 'https://peak-physique.herokuapp.com/?id=606ce14e12c09a00159b0f2c',
-    repo: 'https://github.com/amo02008/PeakPhysique.git', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'budget-tracker.PNG',
-    title: 'Budget Tracker',
+    img: 'TakeoffDesktopScreenshot.png',
+    title: 'Takeoff',
     info:
-      'This budget tracker will allows the user to keep tabs of their balance whether they are online or offline',
-    info2: '',
-    url: 'https://offline-budget-app1.herokuapp.com/',
-    repo: 'https://github.com/amo02008/Online-Offline-Budget-Tracker.git', // if no repo, the button will not show up
+      'A PWA designed to allowed the user to track their travel itinerary (flights, hotel, and activities). There is a blog portion that will allow the user to link photos from their trip to its own board.',
+    info2: 'Tools: React, Redux, JavaScript, HTML, Material UI, Miro',
+    url: 'https://takeoff123.herokuapp.com/',
+    repo: 'https://github.com/amo02008/Takeoff.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -60,9 +43,28 @@ export const projectsData = [
     title: 'Quarantine Recipe Machine',
     info:
       'An application designed to allow the user to input two ingredients they have on hand. Once entered a list of recipes will appear. This will allow the user to find new ways to create meals based on ingredients they already have.',
-    info2: '',
+    info2: 'Tools: JavaScript, HTML, CSS, Materialize, APIs, Figma',
     url: 'https://amo02008.github.io/Quarantine-Recipe-Machine/',
     repo: 'https://github.com/amo02008/Quarantine-Recipe-Machine.git', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'dashboard_tracker.PNG',
+    title: 'Peak Physique',
+    info:
+      'This application allows users to track their workouts. They can start new workouts or add to one already started.',
+    info2: 'Tools: JavaScript, HTML, CSS, Node',
+    url: 'https://peak-physique.herokuapp.com/?id=606ce14e12c09a00159b0f2c',
+    repo: 'https://github.com/amo02008/PeakPhysique.git', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'my-notepad.png',
+    title: 'Note Taker',
+    info: 'This application allows the user to create, save and delete notes.',
+    info2: 'Tools: JavaScript, HTML, CSS, APIs',
+    url: 'https://my-notepad-notes.herokuapp.com/',
+    repo: 'https://github.com/amo02008/My-Notepad.git', // if no repo, the button will not show up
   },
 ];
 
@@ -70,7 +72,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'adrienne.osorio@gmail.com',
 };
 
 // FOOTER DATA
